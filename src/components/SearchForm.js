@@ -20,7 +20,7 @@ export default function SearchForm() {
       {/* Verificação de campos obrigatórios antes do envio */}
       <input 
         type="text" 
-        placeholder="Digite o nome (ex: Rick, Morty, Summer)"
+        placeholder="Digite o nome (ex: Rick, Morty, Summer, Mr., Jerry, Beth, Squanchy, Birdperson, etc.)"
         {...register("nomePersonagem", { required: "O nome do personagem é obrigatório para a busca!" })}
       />
       
