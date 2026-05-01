@@ -31,7 +31,7 @@ Nesta versão final, foram aplicadas melhorias de Experiência do Usuário (UX),
 ## Como executar o projeto localmente
 ```bash
 # Clone o repositório
-git clone [https://github.com/PaulinhoADS/projeto1-fullstack.git](https://github.com/PaulinhoADS/projeto1-fullstack.git)
+git clone https://github.com/PaulinhoADS/projeto1-fullstack.git
 
 # Entre no diretório
 cd projeto1-fullstack
