@@ -2,8 +2,8 @@
 
 **Instituição:** Universidade Tecnológica Federal do Paraná (UTFPR) - Campus Cornélio Procópio  
 **Disciplina:** Programação Web Fullstack (N14)  
-**Professor:** Dr. Anderson Paulo Avila Santos  
-**Alunos:** Paulo Cesar Leite (RA: 2706512) e João Bosco Salviano de Carvalho (RA: 1915452)  
+**Professor:** Anderson Paulo Avila Santos  
+**Alunos:** Paulo Cesar Leite (RA: 2706512) e João Bosco Salviano de Carvalho (RA: XXXXXX)  
 **Link da Aplicação (Deploy):** [Acessar o Rick & Morty Explorer](https://PaulinhoADS.github.io/projeto1-fullstack/)
 
 ---
