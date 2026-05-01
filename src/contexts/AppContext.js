@@ -8,6 +8,12 @@ export function AppProvider({ children }) {
   const [carregando, setCarregando] = useState(false);
   const [erroApi, setErroApi] = useState('');
 
+  // Limpa a busca para simular o botão "Voltar"
+  const limparBusca = () => {
+    setPersonagens([]);
+    setErroApi('');
+  };
+
   // Função assíncrona que consome a API JSON com envio de parâmetros
   const buscarPersonagens = async (nome) => {
     setCarregando(true);
@@ -33,7 +39,7 @@ export function AppProvider({ children }) {
   };
 
   return (
-    <AppContext.Provider value={{ personagens, carregando, erroApi, buscarPersonagens }}>
+    <AppContext.Provider value={{ personagens, carregando, erroApi, buscarPersonagens, limparBusca }}>
       {children}
     </AppContext.Provider>
   );

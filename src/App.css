@@ -5,7 +5,7 @@
  padding: 20px; 
 }
 
-.header { text-align: center; 
+header { text-align: center; 
  margin-bottom: 30px; 
 }
 
@@ -51,4 +51,63 @@
 } 
 
 .unknown { background-color: gray; 
+}
+
+/* --- Estilos Adicionais de UX --- */
+.subtitle {
+  color: #666;
+  font-size: 1.1em;
+}
+
+.instrucoes {
+  background-color: #e0f7fa;
+  border-left: 6px solid #00acc1;
+  padding: 15px 20px;
+  margin: 20px auto;
+  border-radius: 4px;
+  color: #006064;
+  font-size: 0.95em;
+  text-align: left;
+  max-width: 600px;
+}
+
+.instrucoes p {
+  margin: 5px 0;
+}
+
+.botoes-acao {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  flex: 1; /* Faz os botões dividirem o espaço igualmente */
+}
+
+.btn-buscar {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.btn-buscar:hover {
+  background-color: #1b5e20;
+  transform: translateY(-2px);
+}
+
+.btn-voltar {
+  background-color: #555;
+  color: white;
+}
+
+.btn-voltar:hover {
+  background-color: #333;
+  transform: translateY(-2px);
 }
