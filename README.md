@@ -2,8 +2,8 @@
 
 **Instituição:** Universidade Tecnológica Federal do Paraná (UTFPR) - Campus Cornélio Procópio  
 **Disciplina:** Programação Web Fullstack (N14)  
-**Professor:** Anderson Paulo Avila Santos  
-**Alunos:** Paulo Cesar Leite (RA: 2706512) e João Bosco Salviano de Carvalho (RA: XXXXXX)  
+**Professor:** Dr. Anderson Paulo Avila Santos  
+**Alunos:** Paulo Cesar Leite (RA: 2706512) e João Bosco Salviano de Carvalho (RA: 1915452)  
 **Link da Aplicação (Deploy):** [Acessar o Rick & Morty Explorer](https://PaulinhoADS.github.io/projeto1-fullstack/)
 
 ---
@@ -31,7 +31,7 @@ Nesta versão final, foram aplicadas melhorias de Experiência do Usuário (UX),
 ## Como executar o projeto localmente
 ```bash
 # Clone o repositório
-git clone [https://github.com/PaulinhoADS/projeto1-fullstack.git](https://github.com/PaulinhoADS/projeto1-fullstack.git)
+git clone https://github.com/PaulinhoADS/projeto1-fullstack.git
 
 # Entre no diretório
 cd projeto1-fullstack
