@@ -6,18 +6,16 @@ export default function SearchForm() {
   const { buscarPersonagens, limparBusca, personagens, erroApi } = useContext(AppContext);
   
   // Configuração do react-hook-form para gerenciar o input
-  // Usando a função 'reset' do hook para limpar o campo de texto
+  // função 'reset' do hook p/ limpar o campo de texto
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
-  // Função disparada se a validação passar
   const aoEnviar = (dados) => {
     buscarPersonagens(dados.nomePersonagem);
   };
 
-  // Função disparada ao clicar em "Voltar ao Início"
   const acaoVoltar = () => {
-    limparBusca(); // Limpa o estado global
-    reset();       // Limpa o input do formulário
+    limparBusca(); 
+    reset();      
   };
 
   return (
