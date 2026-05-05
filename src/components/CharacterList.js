@@ -4,8 +4,8 @@ import { AppContext } from '../contexts/AppContext';
 export default function CharacterList() {
   const { personagens, carregando, erroApi } = useContext(AppContext);
 
-  // Exigência: Hook adicional (useMemo). 
-  // Ele guarda a lista em ordem alfabética na memória e só recalcula se "personagens" mudar.
+  // Hook adicional (useMemo). 
+  // guarda a lista em ordem alfabética na memória e só recalcula se personagens mudar.
   const personagensOrdenados = useMemo(() => {
     if (!personagens) return [];
     return [...personagens].sort((a, b) => a.name.localeCompare(b.name));
