@@ -53,7 +53,6 @@ header { text-align: center;
 .unknown { background-color: gray; 
 }
 
-/* --- Estilos Adicionais de UX --- */
 .subtitle {
   color: #666;
   font-size: 1.1em;
@@ -89,7 +88,7 @@ button {
   font-weight: bold;
   font-size: 1em;
   transition: all 0.3s ease;
-  flex: 1; /* Faz os botões dividirem o espaço igualmente */
+  flex: 1;
 }
 
 .btn-buscar {
@@ -112,7 +111,6 @@ button {
   transform: translateY(-2px);
 }
 
-/* --- RODAPÉ --- */
 footer {
   text-align: center;
   margin-top: 40px;
